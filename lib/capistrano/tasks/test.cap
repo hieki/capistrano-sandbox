@@ -1,0 +1,8 @@
+namespace 'test' do
+  desc 'yeah'
+  task :foo do
+    on roles 'foo-bar' do
+      execute("echo こんにちは〜")
+    end
+  end
+end
